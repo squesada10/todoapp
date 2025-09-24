@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "test": "vitest"
+    "test:unit": "vitest run --reporter verbose",
+    "test:unit-dev": "vitest watch --reporter verbose",
+    "test:accept": "cucumber-js"
   },
   "dependencies": {
     "next": "15.5.3",
