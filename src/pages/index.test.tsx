@@ -5,6 +5,10 @@ import React from 'react';
 import Home from '../pages/index'
 
 
+test('I can render the app', () => {
+  render(<Home />);
+})
+
 test('Home page contains TodoTaskContainer component', () => {
   render(<Home />);
 
